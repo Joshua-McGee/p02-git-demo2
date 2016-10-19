@@ -62,8 +62,8 @@ img{
     border-bottom-color: rgba(255,255,255, 0);
     -webkit-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
-    -webkit-transition: border-bottom-color 0.5s ease-out;
-    transition: border-bottom-color 0.5s ease-out;
+    /*-webkit-transition: border-bottom-color 0.5s ease-out;
+    transition: border-bottom-color 0.5s ease-out;*/
   }
 
   .button-nav:hover, .button-nav:focus {

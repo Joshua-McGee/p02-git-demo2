@@ -57,6 +57,15 @@
 
 	Think of this as saying, when display width > 30em, apply this
 */
+
+
+@media (min-width: 10em) {
+
+	.grid-col-2of10 {
+		width: 100%;
+	}
+
+}
 @media (min-width: 30em) {
 
 	.grid-col-2of10 {
@@ -64,6 +73,7 @@
 	}
 
 }
+
 
 
 /*
