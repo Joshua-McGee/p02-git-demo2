@@ -1,0 +1,175 @@
+img{
+	height: auto;
+	width: auto;
+	max-width: 100%;
+}
+
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+  */
+  body {
+    font-family: Verdana, sans-serif;
+    padding: 2rem;
+  }
+
+  section:not([id]) {
+    margin: 1em 0;
+    padding: 0.5em 0;
+    border-top: 1px solid #333;
+  }
+
+  section h3 {
+    margin-bottom: 0;
+  }
+
+  section p {
+    margin-top: 0;
+
+  }
+
+  section code {
+    background-color: #EEE;
+    padding: 0.5em 0.75em;
+  }
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+  */
+
+  /* Styling for the navigation button */
+  nav {
+    /*fix the position of the navigation to the top*/
+    position: fixed;
+    /*postion is set to top of the screen*/
+    top: 0;
+    right: 0em;
+    /*z-index makes it above all other elements*/
+    z-index: 100;
+    width: 100%;
+  }
+  .button-nav {
+    width: 100%;
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    color: #FFF;
+    background-color: rgba(67,133,166,0.05);
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-: 2em;
+    border-bottom-position: 1em;
+    border-bottom-color: rgba(255,255,255, 0);
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    -webkit-transition: border-bottom-color 0.5s ease-out;
+    transition: border-bottom-color 0.5s ease-out;
+  }
+
+  .button-nav:hover, .button-nav:focus {
+    background-color: rgba(67,133,166,1);
+    border-bottom-color: rgba(0,0,0,1);
+  }
+
+  .button {
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    color: #FFF;
+    background-color: #223843;
+    border-radius: 0.25em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+
+  .button:hover, .button:focus {
+    background-color: #D8B480;
+  }
+
+
+  .link {
+    color: #000;
+    -webkit-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+  }
+
+  .link:hover, .link:focus {
+    color: #D8B480;
+
+  }
+  .submit {
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    color: #000;
+    background-color: #DBD3D8;
+    border-radius: 0.25em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+  .submit:hover, .submit:focus {
+    background-color: #D8B480;
+
+  }
+  .textbox {
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    color: #000;
+    background-color: #DBD3D8;
+  }
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+  */
+  @font-face {
+    font-family: 'Agency FB';
+    font-weight: normal;
+    font-style: normal;
+    src: url('fonts/ufonts.com_agency_fb.eot');
+    src: url('fonts/ufonts.com_agency_fb.eot?#iefix') format('embedded-opentype'), 
+    url('fonts/ufonts.com_agency-fb.tff') format('truetype');
+  }
+  @font-face {
+    font-family: 'Agency FB';
+    font-weight: bold;
+    font-style: normal;
+    src: url('fonts/ufonts.com_agency_fb_bold.eot');
+    src: url('fonts/ufonts.com_agency_fb_bold.eot?#iefix') format('embedded-opentype'), 
+    url('fonts/ufonts.com_agency-fb-bold.tff') format('truetype');
+  }
+
+  h1 {
+    font-family: 'Agency FB';
+    font-weight: bold;
+    font-size: 2rem;
+
+
+  }
+  h2, h3, h4, h5, h6 {
+    font-family: 'Agency FB';
+    font-weight: normal;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: .8rem;
+    padding: .5rem;
+    text-align: left;
+  }
+
+  ol, ul {
+    font-size: .8rem;
+
+  }
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+  */
+  figcaption {
+    font-size: .7rem;
+  }
