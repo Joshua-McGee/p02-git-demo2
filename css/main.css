@@ -122,27 +122,6 @@ img{
   }
 
 
-
-/* 
-  TEXT ELEMENTS -------------------
-  */
-  @font-face {
-    font-family: 'Agency FB';
-    font-weight: normal;
-    font-style: normal;
-    src: url('fonts/ufonts.com_agency_fb.eot');
-    src: url('fonts/ufonts.com_agency_fb.eot?#iefix') format('embedded-opentype'), 
-    url('fonts/ufonts.com_agency-fb.tff') format('truetype');
-  }
-  @font-face {
-    font-family: 'Agency FB';
-    font-weight: bold;
-    font-style: normal;
-    src: url('fonts/ufonts.com_agency_fb_bold.eot');
-    src: url('fonts/ufonts.com_agency_fb_bold.eot?#iefix') format('embedded-opentype'), 
-    url('fonts/ufonts.com_agency-fb-bold.tff') format('truetype');
-  }
-
   h1 {
     font-family: 'Agency FB';
     font-weight: bold;
