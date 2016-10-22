@@ -16,7 +16,6 @@ img{
   section:not([id]) {
     margin: 1em 0;
     padding: 0.5em 0;
-    border-top: 1px solid #333;
   }
 
   section h3 {
@@ -60,10 +59,10 @@ img{
     border-bottom-: 2em;
     border-bottom-position: 1em;
     border-bottom-color: rgba(255,255,255, 0);
-    -webkit-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-    -webkit-transition: color 0.5s ease-out;
-    transition: color 0.5s ease-out;
+    -webkit-transition: background-color 0.1s ease-out;
+    transition: background-color 0.1s ease-out;
+    -webkit-transition: color 0.1s ease-out;
+    transition: color 0.1s ease-out;
     /*-webkit-transition: border-bottom-color 0.5s ease-out;
     transition: border-bottom-color 0.5s ease-out;*/
   }
@@ -121,19 +120,35 @@ img{
     background-color: #DBD3D8;
   }
 
+  .card {
+    display: inline-block;
+    margin: 2rem;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .card:hover, .card:focus {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: .5;
+}
+
+  .card-container {
+    padding: .25rem;
+  }
+
 
   h1 {
     font-family: 'Agency FB';
     font-weight: bold;
     font-size: 2rem;
-    
-
-
   }
+
   h2, h3, h4, h5, h6 {
     font-family: 'Agency FB';
     font-weight: normal;
   }
+
   h2 {
     font-size: 1.5rem;
   }
@@ -147,6 +162,10 @@ img{
   ol, ul {
     font-size: .8rem;
 
+  }
+
+  div {
+    display: block;
   }
 
 
