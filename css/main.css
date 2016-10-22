@@ -15,7 +15,7 @@ img{
 
   section:not([id]) {
     margin: 1em 0;
-    padding: 0.5em 0;
+    /*padding: 0.5em 0;*/
   }
 
   section h3 {
@@ -29,7 +29,7 @@ img{
 
   section code {
     background-color: #EEE;
-    padding: 0.5em 0.75em;
+    /*padding: 0.5em 0.75em;*/
   }
 
 
@@ -40,7 +40,7 @@ img{
   /* Styling for the navigation button */
   nav {
     /*fix the position of the navigation to the top*/
-    position: fixed;
+    position: absolute;
     /*postion is set to top of the screen*/
     top: 0;
     right: 0em;
@@ -52,7 +52,7 @@ img{
     width: 100%;
     display: inline-block;
     padding: 0.5em 0.75em;
-    color: #000;
+    color: rgba(0,0,0,1);
     background-color: rgba(67,133,166,0.05);
     text-decoration: none;
     border-bottom-style: solid;
@@ -70,7 +70,7 @@ img{
   .button-nav:hover, .button-nav:focus {
     background-color: rgba(67,133,166,1);
     border-bottom-color: rgba(0,0,0,1);
-    color: #FFF;
+    color: rgba(255,255,255,1);
   }
 
   .button {
@@ -131,7 +131,7 @@ img{
   .card:hover, .card:focus {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     opacity: .5;
-}
+  }
 
   .card-container {
     padding: .25rem;

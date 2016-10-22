@@ -2,39 +2,39 @@
 /* 
 	This tutorial draws from "Don't Overthink Grids" available at
 	http://css-tricks.com/dont-overthink-it-grids/
-*/
+	*/
 
 
 /*
 	With this selector, we are specifying that all objects use
 	the border-box model (not the content-box model)
-*/
-*, *:after, *:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
+	*/
+	*, *:after, *:before {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
 
 
 /*
 	Here we are using a 'fancy' css selector that is 
 	specifying if the class of an item starts with
 	'grid-col-', then we should apply the styling listed
-*/
-[class^='grid-col-'] {
-	float: left;
-	padding: 0; 
-	text-align: center; /* center the content in this block by default */
-}
+	*/
+	[class^='grid-col-'] {
+		float: left;
+		padding: 0; 
+		text-align: center; /* center the content in this block by default */
+	}
 
 
 /*
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
-*/
-.grid-col-5of10, .grid-col-2of10, .grid-col-1of4 {
-	width: 100%;
-}
+	*/
+	.grid-col-5of10, .grid-col-2of10, .grid-col-1of4 {
+		width: 100%;
+	}
 
 
 
@@ -42,12 +42,12 @@
 /*
 	Here we are clearing floated items to ensure that
 	our 'grid' structure can have different rows
-*/
-.grid-row:after {
-	content: "";
-	display: block;
-	clear: both;
-}
+	*/
+	.grid-row:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
 
 
 
@@ -56,29 +56,34 @@
 	less than 30em it should collapse the 2/10 columns into one stack
 
 	Think of this as saying, when display width > 30em, apply this
-*/
+	*/
 
 
-@media (min-width: 10em) {
+	@media (min-width: 10em) {
 
-	.grid-col-1of4 {
-		width: 100%;
+		.grid-col-1of4 {
+			width: 100%;
+		}
+		body{
+			padding-top: 4rem;
+		}
+
 	}
-	body{
-		padding-top: 9rem;
+	@media(min-width: 22em) {
+		.grid-col-1of4 {
+			width: 50%;
+		}
 	}
+	@media (min-width: 50em) {
 
-}
-@media (min-width: 30em) {
+		.grid-col-1of4 {
+			width: 25%;
+		}
+		body{
+			padding-top: 1.5rem;
+		}
 
-	.grid-col-1of4 {
-		width: 25%;
 	}
-	body{
-		padding-top: 1rem;
-	}
-
-}
 
 
 
@@ -88,22 +93,22 @@
 	into one stack (hence width: 100%)
 
 	Think of this as saying, when display width > 50em, apply this
-*/
-@media (min-width: 50em) {
+	*/
+	@media (min-width: 50em) {
 
-	.grid-col-5of10 {
-		width: 50%;
+		.grid-col-5of10 {
+			width: 50%;
+		}
+
+		.grid-col-5of10:first-of-type {
+			padding-right: 0.5em;
+		}
+
+		.grid-col-5of10:last-of-type {
+			padding-left: 0.5em;
+		}
+
 	}
-
-	.grid-col-5of10:first-of-type {
-		padding-right: 0.5em;
-	}
-
-	.grid-col-5of10:last-of-type {
-		padding-left: 0.5em;
-	}
-
-}
 
 
 
