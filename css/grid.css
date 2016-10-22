@@ -64,12 +64,18 @@
 	.grid-col-2of10 {
 		width: 100%;
 	}
+	body{
+		padding-top: 11rem;
+	}
 
 }
 @media (min-width: 30em) {
 
 	.grid-col-2of10 {
 		width: 20%;
+	}
+	body{
+		padding-top: 1rem;
 	}
 
 }
