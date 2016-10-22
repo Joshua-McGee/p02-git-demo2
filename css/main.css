@@ -133,6 +133,10 @@ img{
     opacity: .5;
   }
 
+  .card a {
+    text-decoration: none;
+  }
+
   .card-container {
     padding: .25rem;
   }
