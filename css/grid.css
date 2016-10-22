@@ -65,7 +65,7 @@
 			width: 100%;
 		}
 		body{
-			padding-top: 4rem;
+			padding-top: 9rem;
 		}
 		.grid-col-3of4 {
 			width: 100%;
@@ -76,9 +76,16 @@
 		.grid-col-1of4 {
 			width: 50%;
 		}
+
 		.grid-col-3of4 {
 			width: 50%;
 		}
+
+		body{
+			padding-top: 5rem;
+		}
+
+		
 	}
 	@media (min-width: 50em) {
 
@@ -89,7 +96,7 @@
 			width: 75%;
 		}
 		body{
-			padding-top: 1.5rem;
+			padding-top: 2.5rem;
 		}
 
 	}
