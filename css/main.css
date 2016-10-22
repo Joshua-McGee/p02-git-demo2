@@ -141,6 +141,10 @@ img{
     padding: .25rem;
   }
 
+  .card-container-centre {
+    text-align: center;
+  }
+
 
   h1 {
     font-family: 'Agency FB';
