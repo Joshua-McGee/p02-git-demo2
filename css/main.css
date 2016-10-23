@@ -105,7 +105,8 @@ img{
     display: inline-block;
     padding: 0.5em 0.75em;
     color: #FFF;
-    float: right;
+    position: relative;
+    
     background-color: #223843;
     border-radius: 0.25em;
     text-decoration: none;
