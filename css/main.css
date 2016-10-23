@@ -9,6 +9,11 @@ img{
   padding: 2rem;
   padding-bottom: .2rem;
 }
+.mapIMG{
+    display: inline-block;
+    margin: 2rem;
+    text-align: center;
+}
 
 /*
   STYLE GUIDE STYLING 
