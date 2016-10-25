@@ -1,7 +1,7 @@
 img{
-	height: auto;
-	width: auto;
-	max-width: 100%;
+  height: auto;
+  width: auto;
+  max-width: 100%;
   
 }
 .contactIMG{
@@ -13,6 +13,10 @@ img{
     display: inline-block;
     margin: 2rem;
     text-align: center;
+}
+
+.cardIMG {
+  width:100%;
 }
 
 /*
