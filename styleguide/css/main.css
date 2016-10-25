@@ -1,0 +1,171 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+  */
+  body {
+    font-family: sans-serif;
+    padding: 2rem;
+  }
+  p {
+    padding: 1em;
+  }
+
+  nav {
+    
+    /*postion is set to top of the screen*/
+    
+    /*z-index makes it above all other elements*/
+    z-index: 100;
+    width: 100%;
+  }
+
+  code {
+    display:inline-block;
+    padding: 1em;
+  }
+
+  section:not([id]) {
+    margin: 1em 0;
+    padding: 0.5em 0;
+    border-top: 1px solid #333;
+  }
+
+  section h3 {
+    margin-bottom: 0;
+  }
+
+  section p {
+    margin-top: 0;
+  }
+
+  section code {
+    background-color: #EEE;
+    padding: 0.5em 0.75em;
+  }
+
+  *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+/* 
+  INTERACTIVE ELEMENTS -------------------
+  */
+
+  /* Styling for the navigation button */
+  .button-nav {
+    width: 100%;
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    color: rgba(0,0,0,1);
+    background-color: rgba(67,133,166,0.05);
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-: 2em;
+    border-bottom-position: 1em;
+    border-bottom-color: rgba(255,255,255, 0);
+    -webkit-transition: background-color 0.1s ease-out;
+    transition: background-color 0.1s ease-out;
+    -webkit-transition: color 0.1s ease-out;
+    transition: color 0.1s ease-out;
+    /*-webkit-transition: border-bottom-color 0.5s ease-out;
+    transition: border-bottom-color 0.5s ease-out;*/
+  }
+
+  .button-nav:hover, .button-nav:focus {
+    background-color: rgba(67,133,166,1);
+    border-bottom-color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+  }
+
+  .links-nav {
+    color: none repeat scroll 0 0 #277ac2;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+
+  .links-nav:hover, .links-nav:focus {
+    color: #2e99f7;
+  }
+
+  .sendbutton-nav {
+    background: none repeat scroll 0 0 #277ac2;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 26px;
+    padding: 8px;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+
+  .sendbutton-nav:hover, .sendbutton-nav:focus {
+    background-color: #8ab9e2;
+  }
+  .cardIMG {
+    width: 100%;
+  }
+
+/* 
+  TEXT ELEMENTS -------------------
+  */
+
+
+  .text-area{
+
+  }
+
+  .unordered-list {
+
+  }
+
+  .ordered-list {
+    
+  }
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+  */
+
+  .nav-main-item {
+    display: inline-block;
+    color: white;
+    background: none repeat scroll 0 0 #2980B9;
+    font-size: 1.25rem;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    transition: background-color 0.75s ease-out;
+  }
+
+  .nav-main-item:hover, .nav-main-item:focus {
+    background-color: #1ABC9C;
+  }
+
+  /* the card elements */
+  .card {
+    display: inline-block;
+    margin: 2rem;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .card:hover, .card:focus {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: .5;
+  }
+
+  .card a {
+    text-decoration: none;
+  }
+
+  .card-container {
+    padding: .25rem;
+  }
+
+  .card-container-centre {
+    text-align: center;
+  }

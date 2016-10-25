@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Josh's Style Guide</title>
+
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/grids.css">
+
+
+</head>
+
+<body>
+
+  <h1>Josh's Style Guide</h1>
+
+  <p>A style guide for my tutoring website.</p>
+
+
+  <nav>
+
+    <p>
+      Go to:
+      <a class="links-nav" href="#interactive_elements">Interactive Elements</a>,
+      <a class="links-nav" href="#text_elements">Text Elements</a>,
+      <a class="links-nav" href="#combined_elements">Combined Elements</a>,
+    </p>
+
+    <p>
+      Other pages:
+      <a href="http://www.sfu.ca/~jmcgee/references.html">Works Cited</a>
+      <a href="http://www.sfu.ca/~jmcgee/Wireframes.html">Wire Frames</a>
+    </p>
+
+  </nav>
+
+
+
+  <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+
+    <!-- /////////////////////////////////////////////////////////// Default Button styling section //////////////////////////////////////////////////// -->
+    <section>
+
+      <h2>Navigation Button</h2>
+
+      <h3>CSS selector:</h3>
+      <p>.button-nav</p>
+
+      <h3>Sample code:</h3>
+      <br>
+      <code>&lt;button class="button-nav"&gt; Default Button &lt;/button&gt; </code>
+
+      <h3>Rendered element:</h3>
+      <button class="button-nav"> Default button </button> 
+
+    </section>
+
+    <!-- /////////////////////////////////////////////////////// The Default in text link styling section //////////////////////////////////////////// -->
+    <section>
+      <h2>In-text link</h2>
+
+      <h3>CSS selector:</h3>
+      <p> .links-nav</p>
+
+      <h3>Sample code:</h3>
+      <br>
+      <code>&lt;a class="links-nav" href="#"&gt; In text link &lt;/a&gt; </code>
+
+      <h3> Rendered element:</h3>
+      <a class="links-nav" href="http://www.joshuamcgee.ca"> In text link </a>
+
+    </section>
+
+    <!-- ///////////////////////////////////////////////////// Send and reset buttons //////////////////////////////////////////////////////////// -->
+    <section>
+      <h2>Send /Reset Buttons</h2>
+
+      <h3>CSS selector:</h3>
+      <p> .sendbutton-nav</p>
+
+      <h3>Sample code:</h3>
+      <br>
+      <code>&lt;button class="sendbutton-nav"&gt; Send Button &lt;/button&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <button class="sendbutton-nav"> Send </button> 
+
+    </section>
+
+    <!-- //////////////////////////////////////////////////// The Text field box ///////////////////////////////////////////////////////////// -->
+    <section>
+      <h2>Text Input Field</h2>
+
+      <h3>CSS selector:</h3>
+      <p> .text-area </p>
+
+      <h3>Sample code:</h3>
+      <br>
+      <code>&lt;textarea class="text-area" id="form-comment" placeholder="text here"&gt;  &lt;/textarea&gt;</code>
+
+      <h3>Rendered element:</h3>
+      <textarea id="form-comment" placeholder="Text here"></textarea>
+
+    </section>
+
+  </section>
+
+
+
+
+  <!-- //////////////////////////////////////////////////// TEXT ELEMENTS SECTION /////////////////////////////////////////////////////////// -->
+  <section id="text_elements">
+
+    <section >
+
+      <h2>Headings</h2>
+
+      <h3>CSS selector:</h3>
+      <p>font-family: 'proximanova-semibold-webfont', serif; , also refer to fonts.css</p>
+
+      <h3>Sample code:</h3>
+      <br>
+      <code>&lt;h1&gt; heading &lt;/h1&gt;</code>
+
+      <h3>Rendered element:</h3>
+
+      <h1> H1 heading </h1>
+      <h2> H2 heading </h2>
+      <h3> H3 heading </h3>
+      <h4> H4 heading </h4>
+      <h5> H5 heading </h5>
+      <h6> H6 heading </h6>
+
+    </section>
+
+    <!-- ////////////////////////////////////////////////////////// PARAGRAPH TEXT EXAMPLE ///////////////////////////////////////////////////////// -->
+    <section>
+      <h2>Paragraphs</h2>
+
+      <h3>CSS selector:</h3>
+      <p> font-family: 'proximanova-regular-webfont', serif; , also refer to fonts.css</p>
+
+      <h3>Sample code:</h3>
+      <br>
+      <code>&lt;p&gt; texts goes here &lt;/p&gt; </code>
+
+      <h3>Rendered element:</h3>
+      <p>Maybe there's a happy little waterfall happening over here. Let's make a nice big leafy tree. Son of a gun. Automatically, all of these beautiful, beautiful things will happen. Anything you want to do you can do here.
+
+        Let's get wild today. We'll have a super time. If you don't think every day is a good day - try missing a few. You'll see.
+      </p>
+    </section>
+
+    <!-- ///////////////////////////////////////////////////////////unordered lists //////////////////////////////////////////////////////////////////-->
+    <section>
+      <h2>Bulleted Lists</h2>
+
+      <h3>CSS selector:</h3>
+      <p> .unordered-list</p>
+
+      <h3>Sample code:</h3>
+      <br>
+      <code>&lt;ul class="unordered-list"&gt; <br>
+        &lt; li &gt; Something 1&lt;li&gt; <br>
+        &lt;/ul&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ul>
+         <li>Something 1</li>
+         <li>Something 2</li>
+         <li>Something 3</li>
+       </ul>
+
+     </section>
+
+     <!-- /////////////////////////////////////////////////////////// Ordered lists ///////////////////////////////////////////////////////////////////-->
+     <section>
+      <h2>Numbered Lists</h2>
+
+      <h3>CSS selector:</h3>
+      <p> .ordered-list </p>
+
+      <h3> Sample code:</h3>
+      <br>
+      <code>&lt;ol class="ordered-list"&gt; <br>
+        &lt; li &gt; Something 1&lt;li&gt; <br>
+        &lt;/ol&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ol>
+          <li>Something 1</li>
+          <li>Something 2</li>
+          <li>Something 3</li>
+        </ol>
+      </section>
+
+    </section>
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p> .nav-main-item </p>
+
+        <h3> Sample code:</h3>
+        <br>
+        <code>&lt;a class="button-nav" href="#"&gt; Home &lt;/a&gt;</code>
+        <h3>Rendered element</h3>
+        <nav class="grid-row">
+
+          <div class="grid-col-1of4">
+            <a href="#" class="button-nav">Home</a>
+          </div>
+
+          <div class="grid-col-1of4">
+            <a href="#" class="button-nav">Subjects</a>
+          </div>
+
+          <div class="grid-col-1of4">
+            <a href="#" class="button-nav">Tutors</a>
+          </div>
+
+          <div class="grid-col-1of4">
+            <a href="#" class="button-nav">Contact</a>
+          </div>
+
+
+        </nav>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+
+        <h3>CSS selectors:</h3>
+        <p> .card , .container</p>
+
+        <h3>Sample code:</h3>
+        <br>
+        <code>
+          &lt;div class="card"&gt; <br>
+          &lt;img src="img/img_avatar.png" alt="Avatar" class= "cardIMG"&gt; <br>
+          &lt;div class="container"&gt; <br>
+          &lt;h4&gt;Name here&lt;/h4&gt; <br>
+          &lt;p&gt;Text here&lt;/p&gt; <br>
+          &lt;/div&gt;<br>
+          &lt;/div&gt;
+        </code>
+
+        <h3> Rendered elements: </h3>
+        <div class = "grid-row">
+          <div class="grid-col-1of4">
+            <div class="card">
+              <img class= "cardIMG" src="img/img_avatar.png" alt="Avatar picture of the person whom is presented">
+              <div class="card-container">
+                <h4>Joe Madison</h4>
+                <p> Grades 6 though 9</p>
+              </div>
+            </div>
+          </div>
+
+          <div class = "grid-col-1of4">
+            <div class="card">
+              <img class= "cardIMG" src="img/img_avatar.png" alt="Avatar">
+              <div class="container">
+                <h4>Joe Madison</h4> 
+                <p>Grade 11 and 12 tutor</p> 
+              </div>
+            </div>
+          </div>
+
+          <div class = "grid-col-1of4">
+            <div class="card">
+              <img class= "cardIMG" src="img/img_avatar2.png" alt="Avatar">
+              <div class="container">
+                <h4>Nelly Fergison</h4> 
+                <p>Grade 6 through 9 tutor</p> 
+              </div>
+            </div>
+          </div>
+
+          <div class = "grid-col-1of4">
+            <div class="card">
+              <img class= "cardIMG" src="img/img_avatar2.png" alt="Avatar">
+              <div class="container">
+                <h4>Nelly Fergison</h4> 
+                <p>Grade 6 through 9 tutor</p> 
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section>
+        <h2>Grid structure</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.grid-col-1-3 , .grid-row </p>
+
+        <h3>Sample code:</h3>
+        <br>
+        <code>
+          &lt;div class="grid-row"&gt; 
+          &lt;div class="grid-col-1of4"&gt; 
+          &lt;h2&gt;Name here&lt;/h2&gt; 
+          &lt;p&gt;Text here&lt;/p&gt; 
+          &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <div class="grid-row">
+          <div class="grid-col-1of4"> 
+            <h2>TEST 1</h2> 
+            <p>Maybe there's a happy little waterfall happening over here. Let's make a nice big leafy tree. Son of a gun. Automatically, all of these beautiful, beautiful things will happen. Anything you want to do you can do here.
+
+              Let's get wild today. We'll have a super time. If you don't think every day is a good day - try missing a few. You'll see.</p>
+            </div>
+            <div class="grid-col-1of4">
+              <h2>TEST 2</h2> 
+              <p>Maybe there's a happy little waterfall happening over here. Let's make a nice big leafy tree. Son of a gun. Automatically, all of these beautiful, beautiful things will happen. Anything you want to do you can do here.
+
+                Let's get wild today. We'll have a super time. If you don't think every day is a good day - try missing a few. You'll see.</p>
+              </div>
+              <div class="grid-col-1of4">
+                <h2>TEST 3</h2> 
+                <p>Maybe there's a happy little waterfall happening over here. Let's make a nice big leafy tree. Son of a gun. Automatically, all of these beautiful, beautiful things will happen. Anything you want to do you can do here.
+
+                  Let's get wild today. We'll have a super time. If you don't think every day is a good day - try missing a few. You'll see.</p>
+                </div>
+                <div class="grid-col-1of4">
+                  <h2>TEST 4</h2> 
+                  <p>Maybe there's a happy little waterfall happening over here. Let's make a nice big leafy tree. Son of a gun. Automatically, all of these beautiful, beautiful things will happen. Anything you want to do you can do here.
+
+                    Let's get wild today. We'll have a super time. If you don't think every day is a good day - try missing a few. You'll see.</p>
+                  </div>
+                </div>
+              </section>
+            </section>
+
+          </body>
+
+
+
+
+          </html>
+<!--add site map to git-->
