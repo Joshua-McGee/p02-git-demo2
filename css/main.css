@@ -18,6 +18,24 @@ img{
 .cardIMG {
   width:100%;
 }
+.logo {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2.2em;
+  float: left;
+  opacity: .1;
+  z-index: 101;
+  -webkit-transition: opacity 0.1s ease-out;
+    transition: opacity 0.1s ease-out;
+
+}
+
+/*.logo:hover, .logo:focus {
+   opacity: 1;
+  }
+*/
 
 /*
   STYLE GUIDE STYLING 
@@ -86,7 +104,7 @@ img{
     display: inline-block;
     padding: 0.5em 0.75em;
     color: rgba(0,0,0,1);
-    background-color: rgba(67,133,166,0.05);
+    background-color: rgba(46,204,113,0.5);
     text-decoration: none;
     -webkit-transition: background-color 0.1s ease-out;
     transition: background-color 0.1s ease-out;
@@ -96,10 +114,11 @@ img{
     transition: border-bottom-color 0.5s ease-out;*/
   }
 
-  .button-nav:hover, .button-nav:focus {
-    background-color: rgba(67,133,166,1);
-    border-bottom-color: rgba(0,0,0,1);
+  .button-nav:hover, .button-nav:focus, .logo:hover, .logo:focus {
+    background-color: rgba(46,204,113,1);
+    /*background-color: rgba(67,133,166,1);*/
     color: rgba(255,255,255,1);
+    opacity: 1;
   }
 
   .button {
