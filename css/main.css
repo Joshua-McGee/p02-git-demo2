@@ -23,10 +23,12 @@ img{
   STYLE GUIDE STYLING 
   Default styling for the style guide 
   */
+
   body {
     font-family: Verdana, sans-serif;
     padding: 2rem;
     margin-bottom: 2rem;
+    background-color: #FAFAFA;
   }
 
    h1, h2, h3, h4, h5, h6 { 
@@ -42,6 +44,10 @@ img{
     /*padding: 0.5em 0;*/
   }
 
+  .h2-padding {
+    padding-left: 2rem;
+    margin-bottom: 0;
+  }
   /*
   section h3 {
     margin-bottom: 0;
@@ -183,7 +189,7 @@ img{
   }
 
   .card-container {
-    padding: .25rem;
+    padding: .5rem;
   }
 
   .card-container-centre {
@@ -203,6 +209,7 @@ img{
   }
 
   */
+
 
   p {
     font-size: 1.2rem;
