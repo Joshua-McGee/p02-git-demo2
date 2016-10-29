@@ -43,11 +43,3 @@
      url('../fonts/proximanova-semibold-webfont.ttf') format('truetype');
 }
 
-
- h1, h2, h3, h4, h5, h6 { 
-  font-family: 'proximanova-semibold-webfont', serif; 
-}
-
-p {
-  font-family: 'proximanova-regular-webfont', serif;
-}
