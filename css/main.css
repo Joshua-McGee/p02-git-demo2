@@ -49,6 +49,7 @@ img{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+
 }
 
 .title {
@@ -83,7 +84,7 @@ img{
   }
 
   section:not([id]) {
-    margin: 1em 0;
+    /*margin: 1em 0; */ 
   }
 
   .h2-padding {
@@ -187,6 +188,29 @@ img{
     background-color: #8ab9e2;
   }
 
+  .search-area {
+    padding: 1rem 0;
+    padding-bottom: .5rem;
+    background: #e6e6e6;
+    position:relative;
+    margin: -1em;
+    margin-right: -2rem;
+    margin-left: -2rem;
+    box-shadow: 0 1.5px 3px 0 rgba(0,0,0,0.2);
+  }
+
+/*
+    .search-area2 {
+    padding: 1rem 0;
+    padding-bottom: .5rem;
+    background: #e6e6e6;
+    position:relative;
+    margin: -1em;
+    margin-right: -2rem;
+    margin-left: -2rem;
+    box-shadow: 0 1.5px 3px 0 rgba(0,0,0,0.2);
+  }
+*/
 
   .link {
     color: #000;
@@ -223,6 +247,8 @@ img{
   .card {
     display: inline-block;
     margin: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -243,6 +269,19 @@ img{
 
   .card-container-centre {
     text-align: center;
+  }
+
+  .text-middle {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'proximanova-semibold-webfont', serif;
+    margin-bottom: 1rem;
+  }
+
+  .small-text-middle {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 
   p {
