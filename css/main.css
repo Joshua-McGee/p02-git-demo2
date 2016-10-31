@@ -39,8 +39,9 @@ img{
 .banner{
   /*width:100%;*/
   /*height:33.33%;*/
+  z-index: 100;
   padding-top: -2rem;
-  margin-top:-1.5rem;
+  margin-top:-4rem;
   margin-right: -2rem;
   margin-left: -2rem;
   position:relative;
@@ -142,7 +143,7 @@ img{
     display: inline-block;
     padding: 0.5em 0.75em;
     color: #FFF;
-    background-color: #223843;
+    background-color: #277ac2;
     border-radius: 0.25em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s ease-out;
@@ -150,7 +151,7 @@ img{
   }
 
   .button:hover, .button:focus {
-    background-color: #D8B480;
+    background-color: #8ab9e2;
   }
 
   .button_right {
@@ -159,15 +160,31 @@ img{
     color: #FFF;
     position: relative;
     
-    background-color: #223843;
+    background-color: #277ac2;
+    border-radius: 0.25em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+    /* i am having trouble getting this to position properly, ask andrew */
+    .button_banner {
+    z-index: 2;
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    color: #FFF;
+    position: relative;
+    bottom: 200px;
+    left: 38.7%;
+    
+    background-color: #277ac2;
     border-radius: 0.25em;
     text-decoration: none;
     -webkit-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
   }
 
-  .button_right:hover, .button_right:focus {
-    background-color: #D8B480;
+  .button_right:hover, .button_right:focus, .button_banner:hover, .button_banner:focus {
+    background-color: #8ab9e2;
   }
 
 
