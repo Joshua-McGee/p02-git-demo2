@@ -67,6 +67,13 @@ img{
 .bannerIMG {
   width: 100%;
   position: relative;
+  background-image: url("img/online-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%
+  background-attachment: fixed;
+
+
 }
 
 .bg-grey {
@@ -343,7 +350,6 @@ img{
     padding: 1rem;
     margin-bottom: 1rem;
   }
-
 
 /* 
   COMBINED ELEMENTS -------------------
