@@ -59,7 +59,7 @@
 	*/
 
 
-	@media (min-width: 10rem) {
+	@media (min-width: 10em) {
 
 		.grid-col-1of4 {
 			width: 100%;
@@ -92,7 +92,7 @@
 		}
 
 	}
-	@media(min-width: 22rem) {
+	@media(min-width: 22em) {
 
 		.about-text {
 			margin: 0;
@@ -122,7 +122,7 @@
 
 		
 	}
-	@media (min-width: 50rem) {
+	@media (min-width: 50em) {
 
 		.grid-col-1of4 {
 			width: 25%;
@@ -154,7 +154,7 @@
 
 	Think of this as saying, when display width > 50em, apply this
 	*/
-	@media (min-width: 50rem) {
+	@media (min-width: 50em) {
 
 		.grid-col-5of10 {
 			width: 50%;
