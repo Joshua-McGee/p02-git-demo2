@@ -63,16 +63,13 @@ img{
   position:relative;
 }
 
-.bannerIMG {
-  width: 100%;
-  position: relative;
-  background-image: url("img/online-banner.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%
-  background-attachment: fixed;
-
-
+.banner-paragraph{
+  width: 17rem;
+  font-size: 1rem;
+  display:inline-block;
+  text-align: center;
+  margin-top:-1rem;
+  padding-bottom: 3rem;
 }
 
 .bg-grey {
@@ -263,6 +260,17 @@ img{
     margin-left: -2rem;
     box-shadow: 0 1.5px 3px 0 rgba(0,0,0,0.2);
   }
+   .title-middle {
+    font-size: 3rem;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: -1rem;
+    padding: 2rem;
+    padding-bottom:0;
+  }
+  .banner-textarea{
+    text-align:center;
+  }
 
 /*
     .search-area2 {
@@ -339,6 +347,7 @@ img{
   .text-middle {
     font-size: 2rem;
     text-align: center;
+    padding-top:1rem;
     font-family: 'proximanova-semibold-webfont', serif;
     margin-bottom: 1rem;
   }
