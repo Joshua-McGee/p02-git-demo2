@@ -16,7 +16,7 @@ img{
 }
 
 .mapIMG{
-    display: inline-block;
+    position: center;
     margin: 2rem;
     text-align: center;
 }
@@ -172,9 +172,11 @@ img{
 
   .button_right {
     display: inline-block;
+    width: auto;
     padding: 0.5em 0.75em;
     color: #FFF;
-    position: relative;
+    position: center;
+
     
     background-color: #277ac2;
     border-radius: 0.25em;
@@ -201,6 +203,11 @@ img{
 
   .button_right:hover, .button_right:focus, .button_banner:hover, .button_banner:focus {
     background-color: #8ab9e2;
+  }
+
+  .center-button {
+    position: center;
+    text-align: center;
   }
 
   .search-area {
