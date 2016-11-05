@@ -254,20 +254,11 @@ img{
   }
 
   .footer-title-middle {
-    font-size: 1.2rem;
+    color: rgba(255,255,255,1);
+    font-size: 1.3rem;
     text-align: center;
     margin-bottom: 1rem;
-  }
 
-    .about-banner {
-    padding: 1rem 0;
-    padding-bottom: .5rem;
-    background: #e6e6e6;
-    position:relative;
-    margin: -1em;
-    margin-right: -2rem;
-    margin-left: -2rem;
-    box-shadow: 0 1.5px 3px 0 rgba(0,0,0,0.2);
   }
    .title-middle {
     font-size: 3rem;
@@ -281,8 +272,7 @@ img{
     text-align:center;
   }
 
-/*
-    .search-area2 {
+    .about-banner {
     padding: 1rem 0;
     padding-bottom: .5rem;
     background: #e6e6e6;
@@ -292,7 +282,6 @@ img{
     margin-left: -2rem;
     box-shadow: 0 1.5px 3px 0 rgba(0,0,0,0.2);
   }
-*/
 
   .link {
     color: #000;
