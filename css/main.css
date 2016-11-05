@@ -230,6 +230,7 @@ img{
     background: rgba(0,0,0,.5);
     position:relative;
     
+    margin-top: 1rem;
     margin-bottom: -4rem;
     margin-right: -2rem;
     margin-left: -2rem;
