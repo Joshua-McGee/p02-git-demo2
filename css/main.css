@@ -214,6 +214,45 @@ img{
     box-shadow: 0 1.5px 3px 0 rgba(0,0,0,0.2);
   }
 
+   .footer-area {
+    padding: 1rem 0;
+    padding-bottom: 3rem;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    position:relative;
+    
+    margin-bottom: -4rem;
+    margin-right: -2rem;
+    margin-left: -2rem;
+    
+  }
+  .footer-textarea{
+    text-align:center;
+  }
+  .footer-link {
+    text-align: center;
+    text-decoration: none;
+    padding: .5rem;
+    font-size: .9rem;
+    display: inline-block;
+    color: rgba(255,255,255,1);
+    
+    -webkit-transition: text-decoration 0.1s ease-out;
+    transition: text-decoration 0.1s ease-out;
+  }
+  .footer-link:hover, .footer-link:focus{
+    text-decoration: underline;
+  }
+
+  .footer-title-middle {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
     .about-banner {
     padding: 1rem 0;
     padding-bottom: .5rem;
