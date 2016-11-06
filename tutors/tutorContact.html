@@ -12,7 +12,6 @@
 	<link rel="stylesheet" href="../css/grid.css">
 	<link rel="stylesheet" href="../css/fonts.css">
 
-	<!--   http://css-stars.com/css-star-rating/ website that shows how to make rating stars-->
 
 
 
@@ -52,50 +51,65 @@
 		<div class="grid-col-5of10">
 			<h2> Joe Madison</h2>
 
-			<div class="box">    
-				<label for="hr"><abbr title="Hours">Hours per session</abbr></label>
-				<input class ="calcInput" id="hr" value="0" />
-				<button id="down" onclick="modify_hr(-1)">-</button>
-				<button id="up" onclick="modify_hr(1)">+</button>
-			</div>
+			<h3>Estimated Costs Calculator</h3>
 
-			<div class="box">    
-				<label for="dy"><abbr title="Days">Number of days a week</abbr></label>
-				<input class ="calcInput" id="dy" value="0" />
-				<button id="down" onclick="modify_dy(-1)">-</button>
-				<button id="up" onclick="modify_dy(1)">+</button>
-			</div>
+			<p>Use this counter to get an idea of what your weekly costs for tutoring will be
+				with this tutor.</p>
 
-			<div class="box">    
-				<label for="ra"><abbr title="Rate">Estimated Weekly Cost</abbr></label>
-				<input class ="calcInput" id="ra" value="0" />
-				<button id="Equal" onclick="modify_ra(1)">Estimate</button>
-			</div>
+				<div class="box">    
+					<label  for="hr"><abbr title="Hours">Hours per session</abbr></label>
+					<input class ="calcInput" id="hr" value="0" />
+					<button id="down" class="button" onclick="modify_hr(-1)">-</button>
+					<button id="up" class="button" onclick="modify_hr(1)">+</button>
+				</div>
 
-			<textarea class= "review"id="form-comment" placeholder="Text here"></textarea>
+				<div class="box">    
+					<label  for="dy"><abbr title="Days">Number of days a week</abbr></label>
+					<input class ="calcInput" id="dy" value="0" />
+					<button id="down" class="button" onclick="modify_dy(-1)">-</button>
+					<button id="up" class="button" onclick="modify_dy(1)">+</button>
+				</div>
 
-			<a class="button_right" href = "../index.html">Send</a>
+				<div class="box">    
+					<label  for="ra"><abbr title="Rate">Estimated Weekly Cost</abbr></label>
+					<input class ="calcInput" id="ra" value="0" />
+					<button id="Equal" class="button" onclick="modify_ra(1)">Estimate</button>
+				</div>
+
+				<h3>Contact Tutor</h3>
+				<form>
+					Name:   
+					<input type="text" name="Name" value="John Doe">
+
+					Email:
+
+					<input type = "text" name="Email" value="jDoe@gmail.com">
+
+					<textarea class= "review" id="form-comment" placeholder="Text here"></textarea>
+
+					<a class="button_right" href = "../index.html">Send</a>
+				</form>
 
 
 
-		</div>
+				</div>
 
-	</section>
+			</section>
 
-	<footer class = "footer-area">
+			<footer class = "footer-area">
 
-  <h2 class = "footer-title-middle">To look at our website creation process</h2>
-  <div class="footer-textarea">
-    <a class="footer-link" href="../citations.html">Citations</a>
-    <a class="footer-link" href = "../styleguide/styleguide.html">Styleguide</a>
-    <a class="footer-link" href = "../https://github.com/Joshua-McGee/p02-git-demo2">GitHub</a>
-  </div>
-</footer>
+				<h2 class = "footer-title-middle">To look at our website creation process</h2>
+				<div class="footer-textarea">
+					<a class="footer-link" href="../citations.html">Citations</a>
+					<a class="footer-link" href = "../styleguide/styleguide.html">Styleguide</a>
+					<a class="footer-link" href = "../https://github.com/Joshua-McGee/p02-git-demo2">GitHub</a>
+				</div>
+			</footer>
 
-	<script src="../js/calculator.js"></script>
+			<script src="../js/calculator.js"></script>
 
-</body>
-</html>
+		</body>
+		</html>
 
 <!--4-stars.jpg http://css-stars.com/wp-content/uploads/2013/12/4-stars-300x75.jpg
 https://www.codecademy.com/courses/a-simple-counter/0/1 counter tutorial -->
