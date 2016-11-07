@@ -1,7 +1,7 @@
 
 <!doctype html>
 <html lang="en">
-
+<!--a contact page for a specific tutor-->
 <head>
 
 	<meta charset="utf-8">
@@ -55,65 +55,71 @@
 
 			<p>Use this counter to get an idea of what your weekly costs for tutoring will be
 				with this tutor.</p>
+			<!--through javascript this section calculates the average weekly cost of the tutor based on a flat
+			rate days a week, and hours a day-->
+			<div class="box">    
+				<!--by reading an elements id the javascript calculates the weekly rate-->
+				<label  for="hr"><abbr title="Hours">Hours per session</abbr></label>
+				<input class ="calcInput" id="hr" value="0" />
+				<a id="down" class="button" onclick="modify_hr(-1)">-</a>
+				<a id="up" class="button" onclick="modify_hr(1)">+</a>
+			</div>
 
-				<div class="box">    
-					<label  for="hr"><abbr title="Hours">Hours per session</abbr></label>
-					<input class ="calcInput" id="hr" value="0" />
-					<a id="down" class="button" onclick="modify_hr(-1)">-</a>
-					<a id="up" class="button" onclick="modify_hr(1)">+</a>
-				</div>
+			<div class="box">    
+				<label  for="dy"><abbr title="Days">Number of days a week</abbr></label>
+				<input class ="calcInput" id="dy" value="0" />
+				<a id="down1" class="button" onclick="modify_dy(-1)">-</a>
+				<a id="up1" class="button" onclick="modify_dy(1)">+</a>
+			</div>
 
-				<div class="box">    
-					<label  for="dy"><abbr title="Days">Number of days a week</abbr></label>
-					<input class ="calcInput" id="dy" value="0" />
-					<a id="down1" class="button" onclick="modify_dy(-1)">-</a>
-					<a id="up1" class="button" onclick="modify_dy(1)">+</a>
-				</div>
+			<div class="box">    
+				<label  for="ra"><abbr title="Rate">Estimated Weekly Cost</abbr></label>
+				<input class ="calcInput" id="ra" value="0" />
+				<a id="Equal" class="button" onclick="modify_ra(1)">Estimate</a>
+			</div>
 
-				<div class="box">    
-					<label  for="ra"><abbr title="Rate">Estimated Weekly Cost</abbr></label>
-					<input class ="calcInput" id="ra" value="0" />
-					<a id="Equal" class="button" onclick="modify_ra(1)">Estimate</a>
-				</div>
+			<h3>Contact Tutor</h3>
+			<form>
+				<!--a contact form that includes name and email that is used 
+				for messaging a tutor-->
+				Name:   
+				<input type="text" name="Name" value="John Doe">
 
-				<h3>Contact Tutor</h3>
-				<form>
-					Name:   
-					<input type="text" name="Name" value="John Doe">
+				Email:
 
-					Email:
+				<input type = "text" name="Email" value="jDoe@gmail.com">
 
-					<input type = "text" name="Email" value="jDoe@gmail.com">
-
-					<textarea class= "review" id="form-comment" placeholder="Text here"></textarea>
-
-					<a class="button_right" id="thanks">Send</a>
-				</form>
-
-
-
-				</div>
-
-			</section>
-
-			<footer class = "footer-area">
-
-				<h2 class = "footer-title-middle">To look at our website creation process</h2>
-				<div class="footer-textarea">
-					<a class="footer-link" href="../citations.html">Citations</a>
-					<a class="footer-link" href = "../styleguide/styleguide.html">Styleguide</a>
-					<a class="footer-link" href = "../https://github.com/Joshua-McGee/p02-git-demo2">GitHub</a>
-				</div>
-			</footer>
-
-			<script src="../js/zepto.js"></script>
-
-			<script src="../js/calculator.js"></script>
-			<script src="../js/thanks.js"></script>
+				<textarea class= "review" id="form-comment" placeholder="Text here"></textarea>
+				<!--when the send button is pressed a javascrpt will create a popup
+				that thanks a user for using the site and confirming the message was sent
+				then after the pop up is closed it redirects to the home page-->
+				<a class="button_right" id="thanks">Send</a>
+			</form>
 
 
-		</body>
-		</html>
+
+		</div>
+
+	</section>
+
+	<footer class = "footer-area">
+
+		<h2 class = "footer-title-middle">To look at our website creation process</h2>
+		<div class="footer-textarea">
+			<a class="footer-link" href="../citations.html">Citations</a>
+			<a class="footer-link" href = "../styleguide/styleguide.html">Styleguide</a>
+			<a class="footer-link" href = "../https://github.com/Joshua-McGee/p02-git-demo2">GitHub</a>
+		</div>
+	</footer>
+
+	<script src="../js/zepto.js"></script>
+
+	<script src="../js/calculator.js"></script>
+	<script src="../js/thanks.js"></script>
+
+
+</body>
+</html>
 
 <!--4-stars.jpg http://css-stars.com/wp-content/uploads/2013/12/4-stars-300x75.jpg
 https://www.codecademy.com/courses/a-simple-counter/0/1 counter tutorial -->

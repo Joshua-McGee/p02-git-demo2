@@ -1,21 +1,12 @@
 // // this is a comment
 
- console.log("Javascript is running");
+console.log("Javascript is running");
 
- 'use strict';
+'use strict';
 
-// var width = window.innerWidth;
-// console.log("Width: "+width);
-
-// if(width < 500){
-// 	document.getElementById("nav-toggle").className = "";
-
-// 	document.getElementById("nav-items").className += " hidden";
-// }
-
-// document.getElementById("nav-toggle").addEventListener("click", function(){
-// 	document.getElementById("nav-items").className = "";
-// });
+//when the width of the site becomes too small
+//this function will move the banner
+//to underneath the icons
 
 var width = $(window).width();
 

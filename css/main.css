@@ -1,28 +1,33 @@
 img{
   height: auto;
   max-width: 100%;
+  /*standard img styling to always try to be 100% width of their container*/
   
 }
 .contactIMG{
   margin-bottom: 0rem;
   padding: 2rem;
   padding-bottom: .2rem;
+  /*controls the padding for the map image on the contact page*/
 }
 
 .aboutIMG {
   margin: 0;
   padding-top: 5rem;
   padding-left: 5rem;
+  /*controls the padding and margin for the the-tutors.png */
 }
 
 .mapIMG{
   position: center;
   margin: 2rem;
   text-align: center;
+  /*controls positioning and padding for the map image on the tutors.html*/
 }
 
 .cardIMG {
   width:100%;
+  /*sets the images inside the cards to take up the entire space*/
 }
 .logo {
   padding: 0;
@@ -34,24 +39,24 @@ img{
   z-index: 101;
   -webkit-transition: opacity 0.1s ease-out;
   transition: opacity 0.1s ease-out;
-
+/*controls the logo inside of the nav bar and sets it position
+other settings include making it sit above everything in the site*/
 }
 
-/*.logo:hover, .logo:focus {
-   opacity: 1;
-  }
-  */
-  .banner{
-    /*width:100%;*/
-    /*height:33.33%;*/
-    
-    margin-right: -2rem;
-    margin-left: -2rem;
-    position:relative;
-    background-image: url(../img/online-banner.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+
+.banner{
+  /*width:100%;*/
+  /*height:33.33%;*/
+  
+  margin-right: -2rem;
+  margin-left: -2rem;
+  position:relative;
+  background-image: url(../img/online-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+    /*this class creates a banner by making it a background image,
+    allowing for other objects to be infront of it*/
 
   }
 
@@ -59,6 +64,7 @@ img{
     width: 100%;
     height:100%;
     position:relative;
+    /*makes a title go to its full size it can within its container*/
   }
 
 
@@ -70,30 +76,36 @@ img{
     margin-top:-1rem;
     padding-bottom: 3rem;
 
+    /*controls the paragraph in the banner on the home page
+    and sets the its maximum line width */
+
   }
 
   .bg-grey {
     background-color: #F8F8F8;
+    /*sets the background color to an off white*/
   }
 
-/*
-  STYLE GUIDE STYLING 
-  Default styling for the style guide 
-  */
+
 
   body {
     font-family: Verdana, sans-serif;
     padding: 2rem;
     margin-bottom: 2rem;
     background-color: #FAFAFA;
+    /*sets standard padding, margins and background color for all elements within the body
+    font family is also defined here*/
   }
 
   h1, h2, h3, h4, h5, h6 { 
     font-family: 'proximanova-semibold-webfont', serif; 
+
+    /*sets heading tags to use proximanova font*/
   }
 
   p {
     font-family: 'proximanova-regular-webfont', serif;
+    /*sets paragraph tags to use proximanova font*/
   }
 
   section:not([id]) {
@@ -105,21 +117,22 @@ img{
     padding-left: 2rem;
     padding-bottom: 2rem;
     margin-bottom: 0rem;
+    /*changes the padding for h2 tags increasing its spacing on the left and bottom*/
   }
 
   section p {
     margin-top: 0;
+    /*sets the margin of paragraphs in a section to 0*/
 
   }
 
   section code {
     background-color: #EEE;
+    /*sets the standard background color for code examples in the section*/
     /*padding: 0.5em 0.75em;*/
   }
 
-/* 
-  INTERACTIVE ELEMENTS -------------------
-  */
+
 
   /* Styling for the navigation button */
   nav {
@@ -143,14 +156,14 @@ img{
     transition: background-color 0.1s ease-out;
     -webkit-transition: color 0.1s ease-out;
     transition: color 0.1s ease-out;
-    /*-webkit-transition: border-bottom-color 0.5s ease-out;
-    transition: border-bottom-color 0.5s ease-out;*/
+    /*controls the look and positioning of the navigation buttons*/
   }
 
   .button-nav:hover, .button-nav:focus, .logo:hover, .logo:focus {
     background-color: #27AE60;
     /*background-color: rgba(67,133,166,1);*/
     opacity: 1;
+    /*on hover or focus the nav buttons change color*/
   }
 
   .button {
@@ -162,50 +175,20 @@ img{
     text-decoration: none;
     -webkit-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
+    /*controls the look and spacing of buttons*/
   }
 
   .button:hover, .button:focus {
     background-color: #8ab9e2;
+    /*on hover or focus the buttons change color*/
   }
 
-  .button_right {
-    display: inline-block;
-    width: auto;
-    padding: 0.5em 0.75em;
-    color: #FFF;
-    position: center;
 
-    
-    background-color: #277ac2;
-    border-radius: 0.25em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-  }
-  /* i am having trouble getting this to position properly, ask andrew */
-  .button_banner {
-    z-index: 2;
-    display: inline-block;
-    padding: 0.5em 0.75em;
-    color: #FFF;
-    position: relative;
-    bottom: 200px;
-    left: 38.7%;
-    
-    background-color: #277ac2;
-    border-radius: 0.25em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-  }
-
-  .button_right:hover, .button_right:focus, .button_banner:hover, .button_banner:focus {
-    background-color: #8ab9e2;
-  }
 
   .center-button {
     position: center;
     text-align: center;
+    /*aligns buttons to the center of its container*/
   }
 
   .search-area {
@@ -217,6 +200,7 @@ img{
     margin-right: -2rem;
     margin-left: -2rem;
     box-shadow: 0 1.5px 3px 0 rgba(0,0,0,0.2);
+    /*creates an area that will have a separate background from the rest of its parent container*/
   }
 
   .footer-area {
@@ -234,10 +218,12 @@ img{
 
     margin-right: -2rem;
     margin-left: -2rem;
+    /*creates a footer area and anchors it to the bottom of the screen*/
     
   }
   .footer-textarea{
     text-align:center;
+    /*center aligns text*/
   }
   .footer-link {
     text-align: center;
@@ -249,9 +235,11 @@ img{
     
     -webkit-transition: text-decoration 0.1s ease-out;
     transition: text-decoration 0.1s ease-out;
+    /*makes links in the footer have no underlines, makes them white*/
   }
   .footer-link:hover, .footer-link:focus{
     text-decoration: underline;
+    /*when focused or hovered on links in the footer gain an underline*/
   }
 
   .footer-title-middle {
@@ -259,6 +247,7 @@ img{
     font-size: 1.3rem;
     text-align: center;
     margin-bottom: 1rem;
+    /*aligns the title in the middle of its container*/
 
   }
   .title-middle {
@@ -267,9 +256,11 @@ img{
     margin-bottom: -1rem;
     padding: 2rem;
     padding-bottom:0;
+    /*aligns the title in the middle of its container*/
   }
   .banner-textarea{
     text-align:center;
+    /*aligns text in the center of the banner*/
   }
 
   .about-banner {
@@ -281,6 +272,7 @@ img{
     margin-right: -2rem;
     margin-left: -2rem;
     box-shadow: 0 1.5px 3px 0 rgba(0,0,0,0.2);
+    /*creates an area that has a grey background separate from the rest of the parent container*/
   }
 
   .commit-banner {
@@ -291,17 +283,20 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    /*creates an area with a background image for things to be overtop*/
   }
 
   .commit-paragraph{
     font-size: .8rem;
     text-align: center;
     margin-top:1rem;
+    /*aligns text to the center*/
     
 
   }
   .brclear {
     clear:both;
+    /*clears float and row*/
   }
 
   .commit-icon {
@@ -309,44 +304,28 @@ img{
     display: inline-block;
     text-align: center;
     width:100%;
+    /*aligns all images and text to the center of its container*/
 
   }
   .hidden {
     visibility: hidden;
     display: none;
+    /*makes an element hidden and not display*/
   }
 
   .link {
     color: #000;
     -webkit-transition: color 0.5s ease-out;
     transition: color 0.5s ease-out;
+    /*sets the color of a link*/
   }
 
   .link:hover, .link:focus {
     color: #D8B480;
+    /*on hover or focus links change color*/
 
   }
 
-  .submit {
-    display: inline-block;
-    padding: 0.5em 0.75em;
-    color: #000;
-    background-color: #DBD3D8;
-    border-radius: 0.25em;
-    text-decoration: none;
-    -webkit-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-  }
-  .submit:hover, .submit:focus {
-    background-color: #D8B480;
-
-  }
-  .textbox {
-    display: inline-block;
-    padding: 0.5em 0.75em;
-    color: #000;
-    background-color: #DBD3D8;
-  }
 
   .card {
     display: inline-block;
@@ -356,23 +335,28 @@ img{
     text-align: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    /*is the main card container where the images and text will later be stored*/
   }
 
   .card:hover, .card:focus {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     opacity: .5;
+    /*on hover or focus the shadow of the card becomes more prominent making it look like it flashing*/
   }
 
   .card a {
     text-decoration: none;
+    /*links in the card have no decoration*/
   }
 
   .card-container {
     padding: .5rem;
+    /*padding for the card text area*/
   }
 
   .card-container-centre {
     text-align: center;
+    /*aligns text to the center of the container*/
   }
 
   .text-middle {
@@ -381,12 +365,15 @@ img{
     padding-top:1rem;
     font-family: 'proximanova-semibold-webfont', serif;
     margin-bottom: 1rem;
+    /*sets text to be centered
+    sets the font to proximanova*/
   }
 
   .small-text-middle {
     font-size: 1rem;
     text-align: center;
     margin-bottom: 1rem;
+    /*a smaller text middle, aligned to center*/
   }
 
   .text-left {
@@ -394,31 +381,37 @@ img{
     text-align: left;
     font-family: 'proximanova-semibold-webfont', serif;
     margin-bottom: 1rem;
+    /*aligns text to the left, sets it to proximanova*/
   }
 
   .small-text-left {
     font-size: 1rem;
     text-align: left;
     margin-bottom: 1rem;
+    /*a smaller text left*/
   }
 
   .h3-left {
     text-align: left;
+    /*aligns h3 to left*/
   }
 
   p {
     font-size: 1.2rem;
     /*padding: .5rem;*/
     text-align: left;
+    /*standard paragraph alignment is to the left, sets standard font size*/
   }
 
   ol, ul {
     font-size: .8rem;
+    /*standard font size for lists*/
 
   }
 
   div {
     display: block;
+    /*all divs will display as a block unless otherwise stated*/
   }
 
   textarea {
@@ -427,29 +420,33 @@ img{
     height: 20rem;
     padding: 1rem;
     margin-bottom: 1rem;
+    /*sets the standard size, text size and padding for textareas*/
   }
 
-/* 
-  COMBINED ELEMENTS -------------------
-  */
+
   figcaption {
     font-size: .7rem;
+    /*standard size for figcaption*/
   }
 
   input {
     text-decoration: none;
     display: inline-block;
     margin-bottom: 1em;
+    /*standard input will have no decoration, makes them display as an inline block
+    meaning that it will fit within the width of the page, but wrap if it does not have space*/
   }
   .review {
     width:100%;
     height: 5rem;
+    /*sets review to be full width of its container, and have a start height of 5rem*/
   }
 
   label {
     display: block;
     font-size: .8em;
     text-decoration: none;
+    /*preset for label to have no decoration and sets their font size*/
   }
 
   .calcInput{
@@ -460,6 +457,7 @@ img{
     width: 100%;
     margin: 0 0 .1em 0;
     color: #000;
+    /*controls the style for the weekly calculator input*/
   }
 
 
@@ -481,5 +479,5 @@ img{
     margin-left: 2em;
     margin-right: 2em;
 
-
+    /*creates the area around the input for the calculator and controls its positioning and padding*/
   }
