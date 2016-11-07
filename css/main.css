@@ -283,6 +283,39 @@ img{
     box-shadow: 0 1.5px 3px 0 rgba(0,0,0,0.2);
   }
 
+  .commit-banner {
+    margin-right: 0rem;
+    margin-left: 0rem;
+    position:relative;
+    background-image: url(../img/thumbs-up.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .commit-paragraph{
+    font-size: .8rem;
+    text-align: center;
+    margin-top:1rem;
+    
+
+  }
+  .brclear {
+    clear:both;
+  }
+
+  .commit-icon {
+    padding-top: 1rem;
+    display: inline-block;
+    text-align: center;
+    width:100%;
+
+  }
+  .hidden {
+    visibility: hidden;
+    display: none;
+  }
+
   .link {
     color: #000;
     -webkit-transition: color 0.5s ease-out;

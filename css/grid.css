@@ -32,7 +32,7 @@
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
 	*/
-	.grid-col-5of10, .grid-col-2of10, .grid-col-1of4, .grid-col-3of4 {
+	.grid-col-1of3, .grid-col-5of10, .grid-col-2of10, .grid-col-1of4, .grid-col-3of4 {
 		width: 100%;
 	}
 
@@ -64,7 +64,16 @@
 			background-image: url(../img/mobile-banner.jpg);
 		}
 	}
+
+	@media(min-width:15em){
+		.grid-col-1of3{
+			width:100%;
+		}
+
+	}
+
 	@media (min-width: 20em) {
+
 
 		.grid-col-1of4 {
 			width: 100%;
@@ -115,6 +124,7 @@
 			margin-left: -2rem;
 
 		}
+
 		.grid-col-1of4 {
 			width: 50%;
 		}
@@ -128,20 +138,28 @@
 		}
 
 		@media(min-width: 40em) { 
+
 			/*parse error line 137 ask andrew, no clue how to fix*/
 			.banner{
 				background-image: url(../img/online-banner.jpg);
 				padding-top: -4rem;
 				margin-top:-4rem;
 				margin-bottom: -2rem;
-				}
 			}
+			
+
+		}
+
 
 
 		@media(min-width: 60em) {
 
 			.grid-col-1of4 {
 				width: 25%;
+			}
+
+			.grid-col-1of3 {
+				width: 33%;
 			}
 
 			.grid-col-3of4 {
