@@ -47,7 +47,7 @@ other settings include making it sit above everything in the site*/
 .banner{
   /*width:100%;*/
   /*height:33.33%;*/
-  
+
   margin-right: -2rem;
   margin-left: -2rem;
   position:relative;
@@ -188,7 +188,21 @@ other settings include making it sit above everything in the site*/
   .center-button {
     position: center;
     text-align: center;
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    color: #FFF;
+    background-color: #277ac2;
+    border-radius: 0.25em;
+    text-decoration: none;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
     /*aligns buttons to the center of its container*/
+  }
+  .center-button:hover, .center-button:focus {
+    background-color: #8ab9e2;
+  }
+  .center {
+    text-align: center;
   }
 
   .search-area {
