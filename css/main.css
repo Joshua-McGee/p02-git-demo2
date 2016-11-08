@@ -321,6 +321,10 @@ other settings include making it sit above everything in the site*/
     /*aligns text to the center*/
 
   }
+
+  .addPadding {
+    padding-bottom: 6rem;
+  }
   .brclear {
     clear:both;
     /*clears float and row*/
