@@ -10,7 +10,7 @@ console.log("Javascript is running");
 
 var width = $(window).width();
 
-if(width < 960){
+if(width < 1040){
 
 	$("#backIMG").removeClass("commit-banner");
 	$("#belowIMG").removeClass("hidden");
