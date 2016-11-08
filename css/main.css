@@ -309,7 +309,16 @@ other settings include making it sit above everything in the site*/
     margin-top:1rem;
     color: rgba(255,255,255,1);
     /*aligns text to the center*/
-    
+
+  }
+   .commit-paragraph-black{
+    font-size: .8rem;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top:1rem;
+    color: rgba(0,0,0,1);
+    /*aligns text to the center*/
 
   }
   .brclear {
